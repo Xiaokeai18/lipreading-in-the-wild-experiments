@@ -19,15 +19,11 @@ LRW_DIR = os.path.normpath(os.path.join(PROCESS_LRW_DIR, ".."))
 if LRW_DIR not in sys.path:
     sys.path.append(LRW_DIR)
 
-if 'voletiv' in os.getcwd():
+if 'wp' in os.getcwd():
     # voletiv
-    LRW_DATA_DIR = '/media/voletiv/01D2BF774AC76280/Datasets/LRW/lipread_mp4/'
-    LRW_SAVE_DIR = '/home/voletiv/Datasets/LRW/lipread_mp4'
+    LRW_DATA_DIR = '/media/wp/HDD/dataset/lipread_mp4/'
+    LRW_SAVE_DIR = '/media/wp/HDD/dataset/lipread_cut/'
 
-elif 'voleti.vikram' in os.getcwd():
-    # fusor
-    LRW_DATA_DIR = '/shared/magnetar/datasets/LipReading/LRW/lipread_mp4/'
-    LRW_SAVE_DIR = '/shared/fusor/home/voleti.vikram/LRW-mouths'
 
 #############################################################
 # CONSTANTS
