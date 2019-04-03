@@ -124,3 +124,5 @@ image-retrieval/saved_model_weights_staf*/
 *.pkl
 
 ./assessor/ASSESSORS
+/assessor/*
+/assessor/ASSESSORS/*
