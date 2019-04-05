@@ -17,10 +17,10 @@ process_lrw(dataDir=LRW_DATA_DIR,
     dontWriteAudioIfExists=True,
     extractFramesFromMp4=True,
     extractOnlyWordFrames=True,
-    writeFrameImages=True,
+    writeFrameImages=False,
     dontWriteFrameIfExists=True,
     detectAndSaveMouths=True,
-    dontWriteMouthIfExists=False,
+    dontWriteMouthIfExists=True,
     verbose=False)
 
 # # DEBUG

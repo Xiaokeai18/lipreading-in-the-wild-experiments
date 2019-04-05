@@ -289,7 +289,7 @@ def extract_audio_from_mp4(saveDir, wordFileName, dontWriteAudioIfExists, verbos
 
 
 def extract_and_save_frames_and_mouths(saveDir=LRW_SAVE_DIR,
-        wordFileName='/home/voletiv/Datasets/LRW/lipread_mp4/ABOUT/test/ABOUT_00001.txt',
+        wordFileName='/media/wp/HDD/dataset/lipread_cut/ABOUT/test/ABOUT_00001.txt',
         extractFramesFromMp4=False,
         extractOnlyWordFrames=True,
         writeFrameImages=False,
