@@ -2,7 +2,7 @@ import sys
 
 from process_lrw_functions import *
 
-startSetWordNumber = 'train/WHOLE_00313'
+startSetWordNumber = 'train/YOUNG_00998'
 
 if len(sys.argv) > 1:
     startSetWordNumber = sys.argv[1]

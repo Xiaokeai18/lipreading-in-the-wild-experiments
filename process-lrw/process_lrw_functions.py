@@ -458,8 +458,8 @@ def detect_mouth_and_write(saveDir, wordFileName, frameNumer, frame, detector, p
 
     # Image Name
     mouthImageName = os.path.join(saveDir, "/".join(wordFileName.split(
-                                  "/")[-3:]).split('.')[0] + \
-                                  "_{0:02d}_mouth".format(frameNumer) + ".jpg")
+                                  "/")[-3:]).split('.')[0] +'/'+ \
+                                  "{0:02d}_mouth".format(frameNumer) + ".jpg")
 
     # If file is not supposed to be written if it exists
     if dontWriteMouthIfExists:
