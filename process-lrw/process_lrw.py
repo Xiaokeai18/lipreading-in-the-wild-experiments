@@ -2,7 +2,8 @@ import sys
 
 from process_lrw_functions import *
 
-startSetWordNumber = 'train/YOUNG_00998'
+startSetWordNumber = 'train/OFFICIALS_00365'
+endSetWordNumber = None #'train/OFFICIALS_00008'
 
 if len(sys.argv) > 1:
     startSetWordNumber = sys.argv[1]
@@ -11,8 +12,8 @@ process_lrw(dataDir=LRW_DATA_DIR,
     saveDir=LRW_SAVE_DIR,
     startExtracting=False,
     startSetWordNumber=startSetWordNumber,
-    endSetWordNumber=None,
-    copyTxtFile=True,
+    endSetWordNumber=endSetWordNumber,
+    copyTxtFile=False,
     extractAudioFromMp4=False,
     dontWriteAudioIfExists=True,
     extractFramesFromMp4=True,
